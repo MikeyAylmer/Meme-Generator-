@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+</head>
+<link rel="stylesheet" href="memeGen.css">
+<body>
+    <h1>Meme Generator</h1>
+    <h2>Below is a form to generate memes give it a try!</h2>
+    <form><p>Use the link below to find your meme image.</p>
+        <a href="http://memeful.com/" target="_blank">Memeful.com</a>
+        Image URL: <input id="imageUrl" type="text" placeholder="http://memeful.com/" required>
+        Top Text: <input id="textTop" type="text" placeholder="">
+        Bottom Text: <input id="textBottom" type="text" placeholder="">
+        <button type="submit">Add Meme</button>
+    </form>
+
+    <div id="location"></div>
+</body>
+<script src="memeGen.js"></script>
+</html>
